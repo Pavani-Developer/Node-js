@@ -1,0 +1,97 @@
+/* VotersTable.css */
+body{
+    background-color: #f4f4f4;
+}
+
+.custom-body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    color: #333;
+    text-align: center;
+  }
+  
+  .dataTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .dataTable th,
+  .dataTable td {
+    border: 1px solid #4caf50;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .dataTable th {
+    background-color: #4caf50;
+    color: #fff;
+    position: sticky;
+    top: 0;
+  }
+  
+  .dataTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .filter-select {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 20%;
+    font-size: 14px;
+    height: 35px;
+  }
+  
+  .filters {
+    margin-bottom: 30px;
+  }
+  
+  .table-container {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  
+  .add-new-button {
+    text-align: right;
+    /* Align button to the right */
+    margin-top: 20px;
+  }
+  
+  .add-new-button button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .dataTable th,
+    .dataTable td {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .filters label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    .filter-select {
+      width: 100%;
+    }
+  }
+  
